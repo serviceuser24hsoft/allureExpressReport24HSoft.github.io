@@ -1,0 +1,11 @@
+[ {
+  "uid" : "dd19c611588d58b5",
+  "name" : "Удаление одной из трёх ставок из купона для системы и проверка этого (Test Suite Name: delOneBetFromCouponWhenSystemBetAndCheckIt)",
+  "time" : {
+    "start" : 1633843548274,
+    "stop" : 1633843615679,
+    "duration" : 67405
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,18 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Удаление одной из трёх ставок из купона для системы и проверка этого (Test Suite Name: delOneBetFromCouponWhenSystemBetAndCheckIt)",
+    "uid" : "dd19c611588d58b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1633843548274,
+      "stop" : 1633843615679,
+      "duration" : 67405
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+  } ]
+}
