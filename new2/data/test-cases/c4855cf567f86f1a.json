@@ -1,0 +1,152 @@
+{
+  "uid" : "c4855cf567f86f1a",
+  "name" : "Установка мобильного приложения для тестирования (Test Suite Name: installMobAppForTest)",
+  "fullName" : "Тестирование.Установка мобильного приложения для тестирования (Test Suite Name: installMobAppForTest)",
+  "historyId" : "c351328b638a4ed58c9383dd3a41bc0d",
+  "time" : {
+    "start" : 1634295664356,
+    "stop" : 1634295670248,
+    "duration" : 5892
+  },
+  "description" : "",
+  "descriptionHtml" : "Проверка установки мобильного приложения для тестирования",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выполнение шага «_24hS_MobileTesting.installMobAppForTest»",
+      "time" : {
+        "start" : 1634295664359,
+        "stop" : 1634295667598,
+        "duration" : 3239
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Установка мобильного приложения;app = /Users/24hautotest/Documents/GitHub/24HSoft/autotest/mobile/apps/android/app-debug.apk;appPackage = ru.bkfon.debug",
+        "time" : {
+          "start" : 1634295667598,
+          "stop" : 1634295667598,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aPreparingTestedAppForOpenDeepLink»",
+      "time" : {
+        "start" : 1634295667714,
+        "stop" : 1634295670148,
+        "duration" : 2434
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Выполнение шага «_24hS_DeepLink_MobileTesting_Android.aMainSection»",
+        "time" : {
+          "start" : 1634295667718,
+          "stop" : 1634295667851,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aSetTestedAppForOpenDeepLinkWhenAppNameInTitleDialog»",
+        "time" : {
+          "start" : 1634295667920,
+          "stop" : 1634295670088,
+          "duration" : 2168
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажатие на элемент",
+          "time" : {
+            "start" : 1634295670088,
+            "stop" : 1634295670088,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Сквозное тестирование (End-to-end testing)"
+  }, {
+    "name" : "suite",
+    "value" : "Тестирование"
+  }, {
+    "name" : "testClass",
+    "value" : "Тестирование"
+  }, {
+    "name" : "testMethod",
+    "value" : "Установка мобильного приложения для тестирования (Test Suite Name: installMobAppForTest)"
+  }, {
+    "name" : "package",
+    "value" : "Тестирование"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1",
+    "value" : "Подключено мобильное устройство"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4855cf567f86f1a.json",
+  "parameterValues" : [ "Подключено мобильное устройство" ]
+}
