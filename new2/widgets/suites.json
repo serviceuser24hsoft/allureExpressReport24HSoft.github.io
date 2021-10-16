@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "faa4b24a86d7ad6e55e777c20263e233",
+    "name" : "Тестирование",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 53,
+      "unknown" : 0,
+      "total" : 53
+    }
+  } ]
+}
