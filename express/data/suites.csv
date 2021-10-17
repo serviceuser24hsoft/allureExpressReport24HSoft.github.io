@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Oct 10 08:25:48 MSK 2021","Sun Oct 10 08:26:55 MSK 2021","67405","","Тестирование","","Тестирование","Удаление одной из трёх ставок из купона для системы и проверка этого (Test Suite Name: delOneBetFromCouponWhenSystemBetAndCheckIt)","Удаление одной из трёх ставок из купона для системы и проверка этого (Test Suite Name: delOneBetFromCouponWhenSystemBetAndCheckIt)",""
