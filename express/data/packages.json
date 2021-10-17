@@ -1,0 +1,698 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Тестирование",
+    "children" : [ {
+      "name" : "Установка мобильного приложения для тестирования (Test Suite Name: installMobAppForTest)",
+      "uid" : "70765d0a1c3f8077",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302230723,
+        "stop" : 1634302236227,
+        "duration" : 5504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа пари (Test Suite Name: saleBet)",
+      "uid" : "2bae8d6a533091c4",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302236228,
+        "stop" : 1634302322180,
+        "duration" : 85952
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки Фрибет на учётке с пустым балансом (Test Suite Name: saleFreeBetOnAccountWithEmptyBalance)",
+      "uid" : "639de5e699d3d189",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302322180,
+        "stop" : 1634302383200,
+        "duration" : 61020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки Беспроигрышная ставка на учётке с пустым балансом (Test Suite Name: saleWinWinBetOnAccountWithEmptyBalance)",
+      "uid" : "88ef3f13df3b0d65",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302383200,
+        "stop" : 1634302432966,
+        "duration" : 49766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки Фрибет (Test Suite Name: saleFreeBet)",
+      "uid" : "8fa4da5e78e97aa",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302432966,
+        "stop" : 1634302494784,
+        "duration" : 61818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки - Беспроигрышная ставка (Test Suite Name: saleWinWinBet)",
+      "uid" : "de70a4cfae83c5",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302494784,
+        "stop" : 1634302559956,
+        "duration" : 65172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки с пустым балансом (Test Suite Name: standartBetWithEmptyBalance)",
+      "uid" : "f9d3347728ee87b1",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302559956,
+        "stop" : 1634302596994,
+        "duration" : 37038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Сохранение суммы ставки после заключения пари (Test Suite Name: saveSumBetAfterStandartBet)",
+      "uid" : "d0d310ce7d0125b2",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302596994,
+        "stop" : 1634302661729,
+        "duration" : 64735
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Заключение пари по быстрой ставке в разделе «Линия», просмотр этой ставки и её продажи в истории (Test Suite Name: saleBetViaFastBet)",
+      "uid" : "24eceebbbc6a13eb",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302661729,
+        "stop" : 1634302722521,
+        "duration" : 60792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) (Test Suite Name: odinarBet)",
+      "uid" : "5d834dc25aff1644",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302722521,
+        "stop" : 1634302791267,
+        "duration" : 68746
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) (Test Suite Name: expressBet)",
+      "uid" : "cf821fa5717b5f83",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302791267,
+        "stop" : 1634302866477,
+        "duration" : 75210
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Система) (Test Suite Name: systemBet)",
+      "uid" : "5745b40ef7cef8cc",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302866477,
+        "stop" : 1634302945500,
+        "duration" : 79023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки Фрибет c ограничением (Test Suite Name: saleFreeBetWithLimitation)",
+      "uid" : "1105b02096484d05",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302945500,
+        "stop" : 1634302980155,
+        "duration" : 34655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки - Беспроигрышная ставка - c ограничением (Test Suite Name: saleWinWinBetWithLimitation)",
+      "uid" : "7ba651de008c1a44",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634302980155,
+        "stop" : 1634303012810,
+        "duration" : 32655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Фрибэт' (Test Suite Name: odinarBetWithFreeBet)",
+      "uid" : "c4539ea3bb52687b",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303012810,
+        "stop" : 1634303079423,
+        "duration" : 66613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Фрибэт' (Test Suite Name: expressBetWithFreeBet)",
+      "uid" : "55f4a2fafb0de6a6",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303079423,
+        "stop" : 1634303156452,
+        "duration" : 77029
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Беспроигрышная ставка' (Test Suite Name: odinarBetWithWinWinBet)",
+      "uid" : "318b5f92f4b83f29",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303156453,
+        "stop" : 1634303220178,
+        "duration" : 63725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Беспроигрышная ставка' (Test Suite Name: expressBetWithWinWinBet)",
+      "uid" : "1d4d6c2eccadf06a",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303220178,
+        "stop" : 1634303294186,
+        "duration" : 74008
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Фрибэт' c ограничением (Test Suite Name: odinarBetWithFreeBetWithLimitation)",
+      "uid" : "bb5c92f9d5ed4d56",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303294186,
+        "stop" : 1634303333289,
+        "duration" : 39103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Фрибэт' c ограничением (Test Suite Name: expressBetWithFreeBetWithLimitation)",
+      "uid" : "63e4f3189f43e1d5",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303333289,
+        "stop" : 1634303437690,
+        "duration" : 104401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Беспроигрышная ставка' c ограничением (Test Suite Name: odinarBetWithWinWinBetWithLimitation)",
+      "uid" : "c5b7ab90345787ec",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303437690,
+        "stop" : 1634303474649,
+        "duration" : 36959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Беспроигрышная ставка' c ограничением (Test Suite Name: expressBetWithWinWinBetWithLimitation)",
+      "uid" : "35bf83c7dba1bd9d",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303474649,
+        "stop" : 1634303520281,
+        "duration" : 45632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Сравнение минимальной суммы и максимальной суммы из поля ввода и кнопки (Test Suite Name: сompareMinSumAndMaxSumFromEditAndButton)",
+      "uid" : "4eb3b3ade93ab832",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303520282,
+        "stop" : 1634303568453,
+        "duration" : 48171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Добавление в купон без кнопки \"В купон\" (Test Suite Name: addInCouponWithoutClickInCouponButton)",
+      "uid" : "1ec3ea1fdcf0c514",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303568453,
+        "stop" : 1634303605720,
+        "duration" : 37267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Удаление последней ставки из купона и проверка этого (Test Suite Name: delLastBetFromCouponAndCheckIt)",
+      "uid" : "58668a311c5b1711",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303605720,
+        "stop" : 1634303642485,
+        "duration" : 36765
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Удаление одной из двух ставок из купона для экспресса и проверка этого (Test Suite Name: delOneBetFromCouponWhenExpressBetAndCheckIt)",
+      "uid" : "d8e585060a03a102",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303642485,
+        "stop" : 1634303684886,
+        "duration" : 42401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Удаление одной из трёх ставок из купона для системы и проверка этого (Test Suite Name: delOneBetFromCouponWhenSystemBetAndCheckIt)",
+      "uid" : "eea8a3fa94712349",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303684886,
+        "stop" : 1634303734752,
+        "duration" : 49866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Удаление одной из трёх ставок из купона для системы, переключение на экспресс, заключение ставки и её продажи (Test Suite Name: delOneBetFromCouponWhenSystemBetSwitchToExpressBetAndSaleExpressBet)",
+      "uid" : "aa711cdab9fa4c1c",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303734752,
+        "stop" : 1634303836209,
+        "duration" : 101457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) в деталях события (Test Suite Name: odinarBetInEventDetails)",
+      "uid" : "75244be1a3ff6862",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303836209,
+        "stop" : 1634303914438,
+        "duration" : 78229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) в деталях события (Test Suite Name: expressBetInEventDetails)",
+      "uid" : "f20cc6ba3fdb1c31",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303914438,
+        "stop" : 1634303997175,
+        "duration" : 82737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Система) в деталях события (Test Suite Name: systemBetInEventDetails)",
+      "uid" : "3eb05deaf6907f92",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634303997175,
+        "stop" : 1634304089837,
+        "duration" : 92662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа пари в деталях события (Test Suite Name: saleBetInEventDetails)",
+      "uid" : "35a1d6c2e536575c",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304089837,
+        "stop" : 1634304198042,
+        "duration" : 108205
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Заключение пари по быстрой ставке в деталях события, просмотр этой ставки в истории (Test Suite Name: saleBetViaFastBetInEventDetails)",
+      "uid" : "8dca3f1a4f31cf3f",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304198042,
+        "stop" : 1634304267974,
+        "duration" : 69932
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Добавление события в избранное и проверка этого добавления (Test Suite Name: addEventInFavoriteAndCheckIt)",
+      "uid" : "6769eda1fee59659",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304267974,
+        "stop" : 1634304324077,
+        "duration" : 56103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Продажа бонусной ставки Фрибет из деталей события (Test Suite Name: saleFreeBetInEventDetails)",
+      "uid" : "654bea275f3ad0cb",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304324077,
+        "stop" : 1634304408502,
+        "duration" : 84425
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки - Беспроигрышная ставка, из деталей события (Test Suite Name: saleWinWinBetInEventDetails)",
+      "uid" : "2b46bee980715c9d",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304408502,
+        "stop" : 1634304492215,
+        "duration" : 83713
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Фрибэт' из деталей события (Test Suite Name: odinarBetWithFreeBetInEventDetails)",
+      "uid" : "d42c261a58528228",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304492215,
+        "stop" : 1634304567222,
+        "duration" : 75007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Фрибэт' из деталей события (Test Suite Name: expressBetWithFreeBetInEventDetails)",
+      "uid" : "ed85b3e73bb833f2",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304567222,
+        "stop" : 1634304657161,
+        "duration" : 89939
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Беспроигрышная ставка' из деталей события (Test Suite Name: odinarBetWithWinWinBetInEventDetails)",
+      "uid" : "d71ebb9f93070819",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304657161,
+        "stop" : 1634304730128,
+        "duration" : 72967
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Беспроигрышная ставка' из деталей события (Test Suite Name: expressBetWithWinWinBetInEventDetails)",
+      "uid" : "54d5f9914629631d",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304730128,
+        "stop" : 1634304813331,
+        "duration" : 83203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Удаление последней ставки из купона и проверка этого из деталей события (Test Suite Name: delLastBetFromCouponAndCheckItInEventDetails)",
+      "uid" : "b346ccc44b96e979",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304813331,
+        "stop" : 1634304859897,
+        "duration" : 46566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Удаление одной из двух ставок из купона для экспресса и проверка этого из деталей события (Test Suite Name: delOneBetFromCouponWhenExpressBetAndCheckItInEventDetails)",
+      "uid" : "6d56df8835d62f58",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304859897,
+        "stop" : 1634304916590,
+        "duration" : 56693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Удаление одной из трёх ставок из купона для системы и проверка этого из деталей события (Test Suite Name: delOneBetFromCouponWhenSystemBetAndCheckItInEventDetails)",
+      "uid" : "f59a0afde1662ca5",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304916590,
+        "stop" : 1634304976168,
+        "duration" : 59578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Удаление одной из трёх ставок из купона для системы, переключение на экспресс, заключение ставки из деталей события (Test Suite Name: delOneBetFromCouponWhenSystemBetSwitchToExpressBetInEventDetails)",
+      "uid" : "e87e8d88a70446ed",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634304976168,
+        "stop" : 1634305068355,
+        "duration" : 92187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Продажа бонусной ставки Фрибет на учётке с пустым балансом из деталей события (Test Suite Name: saleFreeBetOnAccountWithEmptyBalanceInEventDetails)",
+      "uid" : "39a59ff8ada0f6be",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305068355,
+        "stop" : 1634305133718,
+        "duration" : 65363
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Продажа бонусной ставки Беспроигрышная ставка на учётке с пустым балансом из деталей события (Test Suite Name: saleWinWinBetOnAccountWithEmptyBalanceInEventDetails)",
+      "uid" : "4099b198030034c1",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305133718,
+        "stop" : 1634305190270,
+        "duration" : 56552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки с пустым балансом из деталей события (Test Suite Name: standartBetWithEmptyBalanceInEventDetails)",
+      "uid" : "3242078e2ac50fbc",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305190270,
+        "stop" : 1634305234801,
+        "duration" : 44531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство", "Приложение установлено и настроено на тест" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Фрибэт' c ограничением из деталей события (Test Suite Name: odinarBetWithFreeBetWithLimitationInEventDetails)",
+      "uid" : "4804976719dd0ab2",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305234801,
+        "stop" : 1634305284424,
+        "duration" : 49623
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Фрибэт' c ограничением из деталей события (Test Suite Name: expressBetWithFreeBetWithLimitationInEventDetails)",
+      "uid" : "6ff4feba10286dd4",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305284424,
+        "stop" : 1634305339780,
+        "duration" : 55356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Одинар) по бонусной ставке 'Беспроигрышная ставка' c ограничением из деталей события (Test Suite Name: odinarBetWithWinWinBetWithLimitationInEventDetails)",
+      "uid" : "1cd3e65526a51272",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305339780,
+        "stop" : 1634305390849,
+        "duration" : 51069
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Беспроигрышная ставка' c ограничением из деталей события (Test Suite Name: expressBetWithWinWinBetWithLimitationInEventDetails)",
+      "uid" : "32c96d0623ac4639",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305390849,
+        "stop" : 1634305448692,
+        "duration" : 57843
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Навигация в приложении с авторизированным пользователем (Test Suite Name: navigationInApplicationWithAuthorizeUser)",
+      "uid" : "e0ee20ea4d8be7d9",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305448692,
+        "stop" : 1634305524834,
+        "duration" : 76142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    }, {
+      "name" : "Навигация в приложении с не авторизированным пользователем (Test Suite Name: navigationInApplicationWithNotAuthorizeUser)",
+      "uid" : "de3320999aea4fdf",
+      "parentUid" : "2ea7059e5cadfd24d226062025f149eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634305524834,
+        "stop" : 1634305580188,
+        "duration" : 55354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Подключено мобильное устройство" ]
+    } ],
+    "uid" : "2ea7059e5cadfd24d226062025f149eb"
+  } ]
+}

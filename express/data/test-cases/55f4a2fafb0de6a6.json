@@ -1,0 +1,3482 @@
+{
+  "uid" : "55f4a2fafb0de6a6",
+  "name" : "Оформление ставки (Экспресс) по бонусной ставке 'Фрибэт' (Test Suite Name: expressBetWithFreeBet)",
+  "fullName" : "Тестирование.Оформление ставки (Экспресс) по бонусной ставке 'Фрибэт' (Test Suite Name: expressBetWithFreeBet)",
+  "historyId" : "e375f6c3b9b6f2af2f927f2f5313cd7e",
+  "time" : {
+    "start" : 1634303079423,
+    "stop" : 1634303156452,
+    "duration" : 77029
+  },
+  "description" : "",
+  "descriptionHtml" : "Выполнение оформления ставки (Одинар) по бонусной ставке 'Фрибэт'",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aPreparingTestedAppBeforeTestAndAuthorizationWithFullUserBalanceInTestedApp»",
+      "time" : {
+        "start" : 1634303079428,
+        "stop" : 1634303102569,
+        "duration" : 23141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aPreparingTestedAppBeforeTestAndAuthorizationWithCustomUserBalanceInTestedApp»",
+        "time" : {
+          "start" : 1634303079428,
+          "stop" : 1634303102561,
+          "duration" : 23133
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aSetNumberAndPasswordAccountWithBalance»",
+          "time" : {
+            "start" : 1634303079428,
+            "stop" : 1634303079428,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Выполнение шага «_24hS_ClientAPI_Testing.updateClientProfileCommonSettings»",
+          "time" : {
+            "start" : 1634303079529,
+            "stop" : 1634303080440,
+            "duration" : 911
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authOnClientViaHttpReq»",
+            "time" : {
+              "start" : 1634303079529,
+              "stop" : 1634303079744,
+              "duration" : 215
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authViaHttpReq»",
+              "time" : {
+                "start" : 1634303079529,
+                "stop" : 1634303079740,
+                "duration" : 211
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getDataForAuthViaHttpReq»",
+                "time" : {
+                  "start" : 1634303079529,
+                  "stop" : 1634303079530,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303079529,
+                    "stop" : 1634303079530,
+                    "duration" : 1
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "f8546040b975422b",
+                    "name" : "Output",
+                    "source" : "f8546040b975422b.txt",
+                    "type" : "text/plain",
+                    "size" : 260
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Output",
+                "time" : {
+                  "start" : 1634303079739,
+                  "stop" : 1634303079740,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "6e521ad115e1e5a0",
+                  "name" : "Output",
+                  "source" : "6e521ad115e1e5a0.txt",
+                  "type" : "text/plain",
+                  "size" : 997
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 4,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.updateClientProfileCommonSettingsViaHttpReq»",
+            "time" : {
+              "start" : 1634303079834,
+              "stop" : 1634303080068,
+              "duration" : 234
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303080068,
+                "stop" : 1634303080068,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "59e6bf9aab718961",
+                "name" : "Output",
+                "source" : "59e6bf9aab718961.txt",
+                "type" : "text/plain",
+                "size" : 105
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.logOutViaHttpReq»",
+            "time" : {
+              "start" : 1634303080136,
+              "stop" : 1634303080378,
+              "duration" : 242
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303080377,
+                "stop" : 1634303080378,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "4fa45d33a91d6797",
+                "name" : "Output",
+                "source" : "4fa45d33a91d6797.txt",
+                "type" : "text/plain",
+                "size" : 119
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 9,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_ClientAPI_Testing.updateClientProfileSystemSettings»",
+          "time" : {
+            "start" : 1634303080542,
+            "stop" : 1634303081453,
+            "duration" : 911
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authOnClientViaHttpReq»",
+            "time" : {
+              "start" : 1634303080542,
+              "stop" : 1634303080757,
+              "duration" : 215
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authViaHttpReq»",
+              "time" : {
+                "start" : 1634303080542,
+                "stop" : 1634303080748,
+                "duration" : 206
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getDataForAuthViaHttpReq»",
+                "time" : {
+                  "start" : 1634303080542,
+                  "stop" : 1634303080543,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303080543,
+                    "stop" : 1634303080543,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "edeb92da746e5584",
+                    "name" : "Output",
+                    "source" : "edeb92da746e5584.txt",
+                    "type" : "text/plain",
+                    "size" : 262
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Output",
+                "time" : {
+                  "start" : 1634303080748,
+                  "stop" : 1634303080748,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "2779eb21bd38ef83",
+                  "name" : "Output",
+                  "source" : "2779eb21bd38ef83.txt",
+                  "type" : "text/plain",
+                  "size" : 997
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 4,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.updateClientProfileSystemSettingsViaHttpReq»",
+            "time" : {
+              "start" : 1634303080845,
+              "stop" : 1634303081060,
+              "duration" : 215
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303081060,
+                "stop" : 1634303081060,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "d8a5903ced25f8d8",
+                "name" : "Output",
+                "source" : "d8a5903ced25f8d8.txt",
+                "type" : "text/plain",
+                "size" : 105
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.logOutViaHttpReq»",
+            "time" : {
+              "start" : 1634303081150,
+              "stop" : 1634303081366,
+              "duration" : 216
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303081366,
+                "stop" : 1634303081366,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "e89a7fce10220334",
+                "name" : "Output",
+                "source" : "e89a7fce10220334.txt",
+                "type" : "text/plain",
+                "size" : 119
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 9,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aPreparingTestedAppBeforeTest»",
+          "time" : {
+            "start" : 1634303081554,
+            "stop" : 1634303082359,
+            "duration" : 805
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aClearTestedApp»",
+            "time" : {
+              "start" : 1634303081554,
+              "stop" : 1634303081915,
+              "duration" : 361
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aConfigTestedAppBeforeTest»",
+            "time" : {
+              "start" : 1634303081957,
+              "stop" : 1634303082266,
+              "duration" : 309
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_AuthorizationForm_MobileTesting_Android.aNavigateToAuthorizationFormViaNumberAccount»",
+          "time" : {
+            "start" : 1634303082461,
+            "stop" : 1634303090748,
+            "duration" : 8287
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_DeepLink_MobileTesting_Android.aAuthSection»",
+            "time" : {
+              "start" : 1634303082461,
+              "stop" : 1634303082534,
+              "duration" : 73
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Выполнение шага «_24hS_AuthorizationForm_MobileTesting_Android.aClickOnNumberAccountTabOnAuthorizationForm»",
+            "time" : {
+              "start" : 1634303082564,
+              "stop" : 1634303090704,
+              "duration" : 8140
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Нажатие на элемент",
+              "time" : {
+                "start" : 1634303090704,
+                "stop" : 1634303090704,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_AuthorizationForm_MobileTesting_Android.aSetNumberAndPasswordAccountWithBalanceOnAuthorizationForm»",
+          "time" : {
+            "start" : 1634303090849,
+            "stop" : 1634303095897,
+            "duration" : 5048
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_AuthorizationForm_MobileTesting_Android.aSetNumberAccountToNumberAccountEditOnAuthorizationForm»",
+            "time" : {
+              "start" : 1634303090849,
+              "stop" : 1634303093322,
+              "duration" : 2473
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Помещение текста в элемент по XPath;text = 3414216",
+              "time" : {
+                "start" : 1634303093322,
+                "stop" : 1634303093322,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_AuthorizationForm_MobileTesting_Android.aSetPasswordAccountToPasswordAccountEditOnAuthorizationForm»",
+            "time" : {
+              "start" : 1634303093372,
+              "stop" : 1634303095809,
+              "duration" : 2437
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Помещение текста в элемент по XPath;text = qwe123poi",
+              "time" : {
+                "start" : 1634303095809,
+                "stop" : 1634303095809,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_AuthorizationForm_MobileTesting_Android.aClickOnSignInButtonOnAuthorizationForm»",
+          "time" : {
+            "start" : 1634303095996,
+            "stop" : 1634303096905,
+            "duration" : 909
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aClickOnSignInButtonOnMainMenu»",
+            "time" : {
+              "start" : 1634303095997,
+              "stop" : 1634303096837,
+              "duration" : 840
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Нажатие на элемент",
+              "time" : {
+                "start" : 1634303096837,
+                "stop" : 1634303096837,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_LineSection_MobileTesting_Android.aNavigateToLineSectionViaDeepLinkOfMobileApp»",
+          "time" : {
+            "start" : 1634303097005,
+            "stop" : 1634303102462,
+            "duration" : 5457
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_DeepLink_MobileTesting_Android.aLineSection»",
+            "time" : {
+              "start" : 1634303097005,
+              "stop" : 1634303097186,
+              "duration" : 181
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aGetFirstEventCountOfGroupOnEventsList»",
+            "time" : {
+              "start" : 1634303097206,
+              "stop" : 1634303102396,
+              "duration" : 5190
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aGetEventCountOfGroupIfItExistsInEventsList»",
+              "time" : {
+                "start" : 1634303097206,
+                "stop" : 1634303101913,
+                "duration" : 4707
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Получение первого количества событий группы",
+              "time" : {
+                "start" : 1634303101914,
+                "stop" : 1634303101914,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Снимок экрана",
+              "time" : {
+                "start" : 1634303102395,
+                "stop" : 1634303102396,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "5d1067aa06cab2b2",
+                "name" : "screen",
+                "source" : "5d1067aa06cab2b2.png",
+                "type" : "image/png",
+                "size" : 267265
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 3,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 5,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 42,
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 43,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aAddFreeBetToBOViaHTTPReq»",
+      "time" : {
+        "start" : 1634303102669,
+        "stop" : 1634303104383,
+        "duration" : 1714
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aClearAndAddCustomBonusBetToBOViaHTTPReq»",
+        "time" : {
+          "start" : 1634303102669,
+          "stop" : 1634303104381,
+          "duration" : 1712
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.searchAndDeleteActiveBonusBet»",
+          "time" : {
+            "start" : 1634303102669,
+            "stop" : 1634303103575,
+            "duration" : 906
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authOnBackofficeViaHttpReq»",
+            "time" : {
+              "start" : 1634303102669,
+              "stop" : 1634303102795,
+              "duration" : 126
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authViaHttpReq»",
+              "time" : {
+                "start" : 1634303102669,
+                "stop" : 1634303102792,
+                "duration" : 123
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getSignRndForAuthViaHttpReq»",
+                "time" : {
+                  "start" : 1634303102669,
+                  "stop" : 1634303102669,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getDataForAuthViaHttpReq»",
+                "time" : {
+                  "start" : 1634303102669,
+                  "stop" : 1634303102670,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Output",
+                "time" : {
+                  "start" : 1634303102791,
+                  "stop" : 1634303102792,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "e4a49e990a33a04d",
+                  "name" : "Output",
+                  "source" : "e4a49e990a33a04d.txt",
+                  "type" : "text/plain",
+                  "size" : 171
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 4,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.searchAndDeleteActiveBonusBetOfClientViaHttpReq»",
+            "time" : {
+              "start" : 1634303102873,
+              "stop" : 1634303103355,
+              "duration" : 482
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303103350,
+                "stop" : 1634303103351,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "f4c3dd68b2996474",
+                "name" : "Output",
+                "source" : "f4c3dd68b2996474.txt",
+                "type" : "text/plain",
+                "size" : 488588
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.logOutViaHttpReq»",
+            "time" : {
+              "start" : 1634303103373,
+              "stop" : 1634303103499,
+              "duration" : 126
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303103498,
+                "stop" : 1634303103499,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "455eace6d8081917",
+                "name" : "Output",
+                "source" : "455eace6d8081917.txt",
+                "type" : "text/plain",
+                "size" : 86
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 9,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.addBonusBetOfClient»",
+          "time" : {
+            "start" : 1634303103675,
+            "stop" : 1634303104281,
+            "duration" : 606
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authOnBackofficeViaHttpReq»",
+            "time" : {
+              "start" : 1634303103675,
+              "stop" : 1634303103773,
+              "duration" : 98
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authViaHttpReq»",
+              "time" : {
+                "start" : 1634303103675,
+                "stop" : 1634303103773,
+                "duration" : 98
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getSignRndForAuthViaHttpReq»",
+                "time" : {
+                  "start" : 1634303103675,
+                  "stop" : 1634303103675,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getDataForAuthViaHttpReq»",
+                "time" : {
+                  "start" : 1634303103675,
+                  "stop" : 1634303103676,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Output",
+                "time" : {
+                  "start" : 1634303103772,
+                  "stop" : 1634303103773,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "155f43beb94bca25",
+                  "name" : "Output",
+                  "source" : "155f43beb94bca25.txt",
+                  "type" : "text/plain",
+                  "size" : 171
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 4,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.addBonusBetOfClientViaHttpReq»",
+            "time" : {
+              "start" : 1634303103878,
+              "stop" : 1634303103987,
+              "duration" : 109
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303103987,
+                "stop" : 1634303103987,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "4947547f5719bc6b",
+                "name" : "Output",
+                "source" : "4947547f5719bc6b.txt",
+                "type" : "text/plain",
+                "size" : 415
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.logOutViaHttpReq»",
+            "time" : {
+              "start" : 1634303104079,
+              "stop" : 1634303104172,
+              "duration" : 93
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Output",
+              "time" : {
+                "start" : 1634303104172,
+                "stop" : 1634303104172,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "4af98399aeddc6d0",
+                "name" : "Output",
+                "source" : "4af98399aeddc6d0.txt",
+                "type" : "text/plain",
+                "size" : 86
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 9,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 20,
+        "attachmentsCount" : 6,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 21,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aMadeExpressCouponBetWithBonusBet»",
+      "time" : {
+        "start" : 1634303104478,
+        "stop" : 1634303143095,
+        "duration" : 38617
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aClickOnFirstBetInEventsList»",
+        "time" : {
+          "start" : 1634303104478,
+          "stop" : 1634303106648,
+          "duration" : 2170
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aClickOnBetInEventsList»",
+          "time" : {
+            "start" : 1634303104478,
+            "stop" : 1634303106638,
+            "duration" : 2160
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aClickOnCustomTypeBetInEventsList»",
+            "time" : {
+              "start" : 1634303104478,
+              "stop" : 1634303106636,
+              "duration" : 2158
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aSearchIndexBetInEventsList»",
+              "time" : {
+                "start" : 1634303104478,
+                "stop" : 1634303105168,
+                "duration" : 690
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen»",
+                "time" : {
+                  "start" : 1634303104478,
+                  "stop" : 1634303104698,
+                  "duration" : 220
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen: findBetIteration = 1",
+                  "time" : {
+                    "start" : 1634303104481,
+                    "stop" : 1634303104481,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                }, {
+                  "name" : "_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen: Попытка поиска (attempt) = 0",
+                  "time" : {
+                    "start" : 1634303104481,
+                    "stop" : 1634303104481,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                }, {
+                  "name" : "_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen: Поиск индекса события",
+                  "time" : {
+                    "start" : 1634303104695,
+                    "stop" : 1634303104695,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 3,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Поиск индекса события на определенном экране",
+                "time" : {
+                  "start" : 1634303104704,
+                  "stop" : 1634303104704,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Снимок экрана",
+                "time" : {
+                  "start" : 1634303105167,
+                  "stop" : 1634303105168,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "647d8387fc310ae",
+                  "name" : "screen",
+                  "source" : "647d8387fc310ae.png",
+                  "type" : "image/png",
+                  "size" : 267216
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 6,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Нажатие на элемент",
+              "time" : {
+                "start" : 1634303105942,
+                "stop" : 1634303105942,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Нажатие на определённый тип ставки в списке событий",
+              "time" : {
+                "start" : 1634303105942,
+                "stop" : 1634303105942,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Снимок экрана",
+              "time" : {
+                "start" : 1634303106635,
+                "stop" : 1634303106636,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "1502960da2d50521",
+                "name" : "screen",
+                "source" : "1502960da2d50521.png",
+                "type" : "image/png",
+                "size" : 233010
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 10,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 11,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_BetLayout_MobileTesting_Android.aClickOnTheCouponButton»",
+        "time" : {
+          "start" : 1634303106693,
+          "stop" : 1634303108594,
+          "duration" : 1901
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажатие на элемент",
+          "time" : {
+            "start" : 1634303107961,
+            "stop" : 1634303107961,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Снимок экрана",
+          "time" : {
+            "start" : 1634303108592,
+            "stop" : 1634303108593,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "89e56f6dca898f07",
+            "name" : "screen",
+            "source" : "89e56f6dca898f07.png",
+            "type" : "image/png",
+            "size" : 260993
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aClickOnSecondBetInEventsList»",
+        "time" : {
+          "start" : 1634303108609,
+          "stop" : 1634303115896,
+          "duration" : 7287
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aClickOnBetInEventsList»",
+          "time" : {
+            "start" : 1634303108609,
+            "stop" : 1634303115885,
+            "duration" : 7276
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aClickOnEventCountOfGroupIfItExistsByNumInEventsList»",
+            "time" : {
+              "start" : 1634303108609,
+              "stop" : 1634303113856,
+              "duration" : 5247
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aGetEventCountOfGroupIfItExistsInEventsList»",
+              "time" : {
+                "start" : 1634303108609,
+                "stop" : 1634303109327,
+                "duration" : 718
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aClickOnCustomTypeBetInEventsList»",
+            "time" : {
+              "start" : 1634303113859,
+              "stop" : 1634303115880,
+              "duration" : 2021
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_EventsList_MobileTesting_Android.aSearchIndexBetInEventsList»",
+              "time" : {
+                "start" : 1634303113859,
+                "stop" : 1634303114509,
+                "duration" : 650
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen»",
+                "time" : {
+                  "start" : 1634303113859,
+                  "stop" : 1634303114019,
+                  "duration" : 160
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen: findBetIteration = 2",
+                  "time" : {
+                    "start" : 1634303113861,
+                    "stop" : 1634303113861,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                }, {
+                  "name" : "_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen: Попытка поиска (attempt) = 0",
+                  "time" : {
+                    "start" : 1634303113861,
+                    "stop" : 1634303113861,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                }, {
+                  "name" : "_24hS_Common_MobileTesting_Android.aSearchIndexBetOnCustomScreen: Поиск индекса события",
+                  "time" : {
+                    "start" : 1634303114017,
+                    "stop" : 1634303114017,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 3,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Поиск индекса события на определенном экране",
+                "time" : {
+                  "start" : 1634303114024,
+                  "stop" : 1634303114024,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Снимок экрана",
+                "time" : {
+                  "start" : 1634303114508,
+                  "stop" : 1634303114509,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "922b945c6fd260a2",
+                  "name" : "screen",
+                  "source" : "922b945c6fd260a2.png",
+                  "type" : "image/png",
+                  "size" : 276026
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 6,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Нажатие на элемент",
+              "time" : {
+                "start" : 1634303115264,
+                "stop" : 1634303115264,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Нажатие на определённый тип ставки в списке событий",
+              "time" : {
+                "start" : 1634303115264,
+                "stop" : 1634303115264,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Снимок экрана",
+              "time" : {
+                "start" : 1634303115879,
+                "stop" : 1634303115880,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "39e85721a7ea70b2",
+                "name" : "screen",
+                "source" : "39e85721a7ea70b2.png",
+                "type" : "image/png",
+                "size" : 276663
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 10,
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 13,
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 14,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_CouponLayout_MobileTesting_Android.aOpenCouponMenu»",
+        "time" : {
+          "start" : 1634303115970,
+          "stop" : 1634303118210,
+          "duration" : 2240
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Снимок экрана",
+          "time" : {
+            "start" : 1634303116502,
+            "stop" : 1634303116503,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7e90a2763fa1093e",
+            "name" : "screen",
+            "source" : "7e90a2763fa1093e.png",
+            "type" : "image/png",
+            "size" : 278162
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Нажатие на элемент",
+          "time" : {
+            "start" : 1634303117483,
+            "stop" : 1634303117483,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_CouponLayout_MobileTesting_Android.aGetCouponExpressInfo»",
+        "time" : {
+          "start" : 1634303118285,
+          "stop" : 1634303121042,
+          "duration" : 2757
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_CouponLayout_MobileTesting_Android.aGetInfoAboutBetsFromCouponLayout»",
+          "time" : {
+            "start" : 1634303118285,
+            "stop" : 1634303121039,
+            "duration" : 2754
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Информация по купону;coupon_1_eventName = Турция — Нидерланды Турция тест – Нидерланды",
+            "time" : {
+              "start" : 1634303118861,
+              "stop" : 1634303118861,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Информация по купону;coupon_1_quoteName = Поб 1 (осн. время)",
+            "time" : {
+              "start" : 1634303119201,
+              "stop" : 1634303119201,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Информация по купону;coupon_1_commonQuoteValue = 170.20",
+            "time" : {
+              "start" : 1634303119483,
+              "stop" : 1634303119483,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Информация по купону;coupon_1_quoteValue = 4.60",
+            "time" : {
+              "start" : 1634303119818,
+              "stop" : 1634303119818,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Информация по купону;coupon_2_eventName = Эстония – Чехия",
+            "time" : {
+              "start" : 1634303120161,
+              "stop" : 1634303120161,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Информация по купону;coupon_2_quoteName = Поб 1 (осн. время)",
+            "time" : {
+              "start" : 1634303120483,
+              "stop" : 1634303120483,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Информация по купону;coupon_2_commonQuoteValue = 170.20",
+            "time" : {
+              "start" : 1634303120772,
+              "stop" : 1634303120772,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Информация по купону;coupon_2_quoteValue = 37.00",
+            "time" : {
+              "start" : 1634303121039,
+              "stop" : 1634303121039,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 8,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Получение информации о ставках с всплывающего слоя купона",
+          "time" : {
+            "start" : 1634303121041,
+            "stop" : 1634303121042,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5155bd13b7939043",
+            "name" : "Дополнительный текст",
+            "source" : "5155bd13b7939043.txt",
+            "type" : "text/plain",
+            "size" : 15
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_BetLayout_MobileTesting_Android.aClickOnExpressButton»",
+        "time" : {
+          "start" : 1634303121110,
+          "stop" : 1634303121880,
+          "duration" : 770
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажатие на элемент",
+          "time" : {
+            "start" : 1634303121878,
+            "stop" : 1634303121878,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_BetLayout_MobileTesting_Android.aClickOnTheBonusBetButton»",
+        "time" : {
+          "start" : 1634303121915,
+          "stop" : 1634303123385,
+          "duration" : 1470
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Сильное нажатие на элемент",
+          "time" : {
+            "start" : 1634303123385,
+            "stop" : 1634303123385,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_BetLayout_MobileTesting_Android.aGetTheBonusBetText»",
+        "time" : {
+          "start" : 1634303123425,
+          "stop" : 1634303124088,
+          "duration" : 663
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Выполнение шага «_24hS_BetLayout_MobileTesting_Android.aClickOnMakeABetButtonInBetLayout»",
+        "time" : {
+          "start" : 1634303124136,
+          "stop" : 1634303138045,
+          "duration" : 13909
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_BetLayout_MobileTesting_Android.aClickOnMakeABetButtonInBetLayoutWithCustomPause»",
+          "time" : {
+            "start" : 1634303124137,
+            "stop" : 1634303138037,
+            "duration" : 13900
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Снимок экрана",
+            "time" : {
+              "start" : 1634303124672,
+              "stop" : 1634303124673,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ {
+              "uid" : "b06d806c8742dc18",
+              "name" : "screen",
+              "source" : "b06d806c8742dc18.png",
+              "type" : "image/png",
+              "size" : 298388
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getLastOperationIdByClientId»",
+            "time" : {
+              "start" : 1634303124676,
+              "stop" : 1634303125286,
+              "duration" : 610
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authOnBackofficeViaHttpReq»",
+              "time" : {
+                "start" : 1634303124676,
+                "stop" : 1634303124834,
+                "duration" : 158
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authViaHttpReq»",
+                "time" : {
+                  "start" : 1634303124676,
+                  "stop" : 1634303124830,
+                  "duration" : 154
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getSignRndForAuthViaHttpReq»",
+                  "time" : {
+                    "start" : 1634303124676,
+                    "stop" : 1634303124676,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                }, {
+                  "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getDataForAuthViaHttpReq»",
+                  "time" : {
+                    "start" : 1634303124676,
+                    "stop" : 1634303124677,
+                    "duration" : 1
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 0,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : false
+                }, {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303124829,
+                    "stop" : 1634303124830,
+                    "duration" : 1
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "b38f64230707251d",
+                    "name" : "Output",
+                    "source" : "b38f64230707251d.txt",
+                    "type" : "text/plain",
+                    "size" : 171
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 3,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 4,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getLastOperationIdByClientIdViaHttpReq»",
+              "time" : {
+                "start" : 1634303124879,
+                "stop" : 1634303124973,
+                "duration" : 94
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Output",
+                "time" : {
+                  "start" : 1634303124972,
+                  "stop" : 1634303124973,
+                  "duration" : 1
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "226f2a4461c2f31e",
+                  "name" : "Output",
+                  "source" : "226f2a4461c2f31e.txt",
+                  "type" : "text/plain",
+                  "size" : 459
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.logOutViaHttpReq»",
+              "time" : {
+                "start" : 1634303125085,
+                "stop" : 1634303125187,
+                "duration" : 102
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Output",
+                "time" : {
+                  "start" : 1634303125187,
+                  "stop" : 1634303125187,
+                  "duration" : 0
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "c6be688292b4cf1a",
+                  "name" : "Output",
+                  "source" : "c6be688292b4cf1a.txt",
+                  "type" : "text/plain",
+                  "size" : 86
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 9,
+            "attachmentsCount" : 3,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Сильное нажатие на элемент",
+            "time" : {
+              "start" : 1634303126779,
+              "stop" : 1634303126779,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 12,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 13,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_BetLayout_MobileTesting_Android.aClickOnBetMadeButtonInBetLayout»",
+        "time" : {
+          "start" : 1634303138066,
+          "stop" : 1634303143080,
+          "duration" : 5014
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.waitNewOperation»",
+          "time" : {
+            "start" : 1634303138067,
+            "stop" : 1634303138869,
+            "duration" : 802
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.checkingExistsNewOperationId»",
+            "time" : {
+              "start" : 1634303138067,
+              "stop" : 1634303138767,
+              "duration" : 700
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getLastOperationIdByClientId»",
+              "time" : {
+                "start" : 1634303138067,
+                "stop" : 1634303138667,
+                "duration" : 600
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authOnBackofficeViaHttpReq»",
+                "time" : {
+                  "start" : 1634303138067,
+                  "stop" : 1634303138172,
+                  "duration" : 105
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.authViaHttpReq»",
+                  "time" : {
+                    "start" : 1634303138067,
+                    "stop" : 1634303138168,
+                    "duration" : 101
+                  },
+                  "status" : "passed",
+                  "steps" : [ {
+                    "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getSignRndForAuthViaHttpReq»",
+                    "time" : {
+                      "start" : 1634303138067,
+                      "stop" : 1634303138067,
+                      "duration" : 0
+                    },
+                    "status" : "passed",
+                    "steps" : [ ],
+                    "attachments" : [ ],
+                    "parameters" : [ ],
+                    "stepsCount" : 0,
+                    "attachmentsCount" : 0,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : false
+                  }, {
+                    "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getDataForAuthViaHttpReq»",
+                    "time" : {
+                      "start" : 1634303138067,
+                      "stop" : 1634303138068,
+                      "duration" : 1
+                    },
+                    "status" : "passed",
+                    "steps" : [ ],
+                    "attachments" : [ ],
+                    "parameters" : [ ],
+                    "stepsCount" : 0,
+                    "attachmentsCount" : 0,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : false
+                  }, {
+                    "name" : "Output",
+                    "time" : {
+                      "start" : 1634303138168,
+                      "stop" : 1634303138168,
+                      "duration" : 0
+                    },
+                    "status" : "passed",
+                    "steps" : [ ],
+                    "attachments" : [ {
+                      "uid" : "5c1833c01d96bf9f",
+                      "name" : "Output",
+                      "source" : "5c1833c01d96bf9f.txt",
+                      "type" : "text/plain",
+                      "size" : 171
+                    } ],
+                    "parameters" : [ ],
+                    "stepsCount" : 0,
+                    "attachmentsCount" : 1,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 3,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 4,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.getLastOperationIdByClientIdViaHttpReq»",
+                "time" : {
+                  "start" : 1634303138267,
+                  "stop" : 1634303138369,
+                  "duration" : 102
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303138369,
+                    "stop" : 1634303138369,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "c158023954585bd6",
+                    "name" : "Output",
+                    "source" : "c158023954585bd6.txt",
+                    "type" : "text/plain",
+                    "size" : 459
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Выполнение шага «_24hS_BackofficeAPI_Testing.logOutViaHttpReq»",
+                "time" : {
+                  "start" : 1634303138467,
+                  "stop" : 1634303138568,
+                  "duration" : 101
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303138568,
+                    "stop" : 1634303138568,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "f006951ff403bf85",
+                    "name" : "Output",
+                    "source" : "f006951ff403bf85.txt",
+                    "type" : "text/plain",
+                    "size" : 86
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 9,
+              "attachmentsCount" : 3,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 10,
+            "attachmentsCount" : 3,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 11,
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_ClientAPI_Testing.waitNewCondition»",
+          "time" : {
+            "start" : 1634303138969,
+            "stop" : 1634303141582,
+            "duration" : 2613
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.checkingExistsCurrentConditionId»",
+            "time" : {
+              "start" : 1634303138970,
+              "stop" : 1634303140174,
+              "duration" : 1204
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getLastConditionIdByClientId»",
+              "time" : {
+                "start" : 1634303138970,
+                "stop" : 1634303140081,
+                "duration" : 1111
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authOnClientViaHttpReq»",
+                "time" : {
+                  "start" : 1634303138970,
+                  "stop" : 1634303139167,
+                  "duration" : 197
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authViaHttpReq»",
+                  "time" : {
+                    "start" : 1634303138970,
+                    "stop" : 1634303139167,
+                    "duration" : 197
+                  },
+                  "status" : "passed",
+                  "steps" : [ {
+                    "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getDataForAuthViaHttpReq»",
+                    "time" : {
+                      "start" : 1634303138970,
+                      "stop" : 1634303138971,
+                      "duration" : 1
+                    },
+                    "status" : "passed",
+                    "steps" : [ {
+                      "name" : "Output",
+                      "time" : {
+                        "start" : 1634303138970,
+                        "stop" : 1634303138971,
+                        "duration" : 1
+                      },
+                      "status" : "passed",
+                      "steps" : [ ],
+                      "attachments" : [ {
+                        "uid" : "9b389c1dafcd41b7",
+                        "name" : "Output",
+                        "source" : "9b389c1dafcd41b7.txt",
+                        "type" : "text/plain",
+                        "size" : 258
+                      } ],
+                      "parameters" : [ ],
+                      "stepsCount" : 0,
+                      "attachmentsCount" : 1,
+                      "shouldDisplayMessage" : false,
+                      "hasContent" : true
+                    } ],
+                    "attachments" : [ ],
+                    "parameters" : [ ],
+                    "stepsCount" : 1,
+                    "attachmentsCount" : 1,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  }, {
+                    "name" : "Output",
+                    "time" : {
+                      "start" : 1634303139166,
+                      "stop" : 1634303139166,
+                      "duration" : 0
+                    },
+                    "status" : "passed",
+                    "steps" : [ ],
+                    "attachments" : [ {
+                      "uid" : "a9a557ce3c33af17",
+                      "name" : "Output",
+                      "source" : "a9a557ce3c33af17.txt",
+                      "type" : "text/plain",
+                      "size" : 997
+                    } ],
+                    "parameters" : [ ],
+                    "stepsCount" : 0,
+                    "attachmentsCount" : 1,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 3,
+                  "attachmentsCount" : 2,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 4,
+                "attachmentsCount" : 2,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getLastConditionIdByClientIdViaHttpReq»",
+                "time" : {
+                  "start" : 1634303139272,
+                  "stop" : 1634303139682,
+                  "duration" : 410
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303139681,
+                    "stop" : 1634303139681,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "9a19f87a2313139e",
+                    "name" : "Output",
+                    "source" : "9a19f87a2313139e.txt",
+                    "type" : "text/plain",
+                    "size" : 118956
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.logOutViaHttpReq»",
+                "time" : {
+                  "start" : 1634303139777,
+                  "stop" : 1634303139999,
+                  "duration" : 222
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303139999,
+                    "stop" : 1634303139999,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "5bbfa6cbd1587def",
+                    "name" : "Output",
+                    "source" : "5bbfa6cbd1587def.txt",
+                    "type" : "text/plain",
+                    "size" : 119
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 9,
+              "attachmentsCount" : 4,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 10,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Выполнение шага «_24hS_ClientAPI_Testing.checkingExistsCurrentConditionId»",
+            "time" : {
+              "start" : 1634303140276,
+              "stop" : 1634303141482,
+              "duration" : 1206
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getLastConditionIdByClientId»",
+              "time" : {
+                "start" : 1634303140276,
+                "stop" : 1634303141383,
+                "duration" : 1107
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authOnClientViaHttpReq»",
+                "time" : {
+                  "start" : 1634303140276,
+                  "stop" : 1634303140475,
+                  "duration" : 199
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Выполнение шага «_24hS_ClientAPI_Testing.authViaHttpReq»",
+                  "time" : {
+                    "start" : 1634303140276,
+                    "stop" : 1634303140469,
+                    "duration" : 193
+                  },
+                  "status" : "passed",
+                  "steps" : [ {
+                    "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getDataForAuthViaHttpReq»",
+                    "time" : {
+                      "start" : 1634303140276,
+                      "stop" : 1634303140277,
+                      "duration" : 1
+                    },
+                    "status" : "passed",
+                    "steps" : [ {
+                      "name" : "Output",
+                      "time" : {
+                        "start" : 1634303140277,
+                        "stop" : 1634303140277,
+                        "duration" : 0
+                      },
+                      "status" : "passed",
+                      "steps" : [ ],
+                      "attachments" : [ {
+                        "uid" : "834bedc34e8a5c4a",
+                        "name" : "Output",
+                        "source" : "834bedc34e8a5c4a.txt",
+                        "type" : "text/plain",
+                        "size" : 260
+                      } ],
+                      "parameters" : [ ],
+                      "stepsCount" : 0,
+                      "attachmentsCount" : 1,
+                      "shouldDisplayMessage" : false,
+                      "hasContent" : true
+                    } ],
+                    "attachments" : [ ],
+                    "parameters" : [ ],
+                    "stepsCount" : 1,
+                    "attachmentsCount" : 1,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  }, {
+                    "name" : "Output",
+                    "time" : {
+                      "start" : 1634303140468,
+                      "stop" : 1634303140469,
+                      "duration" : 1
+                    },
+                    "status" : "passed",
+                    "steps" : [ ],
+                    "attachments" : [ {
+                      "uid" : "26104d25b440221a",
+                      "name" : "Output",
+                      "source" : "26104d25b440221a.txt",
+                      "type" : "text/plain",
+                      "size" : 997
+                    } ],
+                    "parameters" : [ ],
+                    "stepsCount" : 0,
+                    "attachmentsCount" : 1,
+                    "shouldDisplayMessage" : false,
+                    "hasContent" : true
+                  } ],
+                  "attachments" : [ ],
+                  "parameters" : [ ],
+                  "stepsCount" : 3,
+                  "attachmentsCount" : 2,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 4,
+                "attachmentsCount" : 2,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.getLastConditionIdByClientIdViaHttpReq»",
+                "time" : {
+                  "start" : 1634303140577,
+                  "stop" : 1634303141016,
+                  "duration" : 439
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303141015,
+                    "stop" : 1634303141016,
+                    "duration" : 1
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "68c8af4746347180",
+                    "name" : "Output",
+                    "source" : "68c8af4746347180.txt",
+                    "type" : "text/plain",
+                    "size" : 118956
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Выполнение шага «_24hS_ClientAPI_Testing.logOutViaHttpReq»",
+                "time" : {
+                  "start" : 1634303141082,
+                  "stop" : 1634303141302,
+                  "duration" : 220
+                },
+                "status" : "passed",
+                "steps" : [ {
+                  "name" : "Output",
+                  "time" : {
+                    "start" : 1634303141302,
+                    "stop" : 1634303141302,
+                    "duration" : 0
+                  },
+                  "status" : "passed",
+                  "steps" : [ ],
+                  "attachments" : [ {
+                    "uid" : "9815270c5efe49b6",
+                    "name" : "Output",
+                    "source" : "9815270c5efe49b6.txt",
+                    "type" : "text/plain",
+                    "size" : 119
+                  } ],
+                  "parameters" : [ ],
+                  "stepsCount" : 0,
+                  "attachmentsCount" : 1,
+                  "shouldDisplayMessage" : false,
+                  "hasContent" : true
+                } ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 1,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 9,
+              "attachmentsCount" : 4,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 10,
+            "attachmentsCount" : 4,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 22,
+          "attachmentsCount" : 8,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Получение нового Condition из API",
+          "time" : {
+            "start" : 1634303141682,
+            "stop" : 1634303141682,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Нажатие на элемент",
+          "time" : {
+            "start" : 1634303142428,
+            "stop" : 1634303142428,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Нажатие на кнопку заключения пари",
+          "time" : {
+            "start" : 1634303142428,
+            "stop" : 1634303142428,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Снимок экрана",
+          "time" : {
+            "start" : 1634303143079,
+            "stop" : 1634303143080,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4962b1f4868a838d",
+            "name" : "screen",
+            "source" : "4962b1f4868a838d.png",
+            "type" : "image/png",
+            "size" : 268095
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 39,
+        "attachmentsCount" : 12,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 104,
+      "attachmentsCount" : 23,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выполнение шага «_24hS_MyBetSection_MobileTesting_Android.aNavigateToAndCheckLastCouponInMyBetSection»",
+      "time" : {
+        "start" : 1634303143200,
+        "stop" : 1634303152905,
+        "duration" : 9705
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Выполнение шага «_24hS_MyBetSection_MobileTesting_Android.aNavigateToMyBetSectionOfMobileApp»",
+        "time" : {
+          "start" : 1634303143200,
+          "stop" : 1634303146537,
+          "duration" : 3337
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aOpenMainMenu»",
+          "time" : {
+            "start" : 1634303143200,
+            "stop" : 1634303144798,
+            "duration" : 1598
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aOpenMainMenuViaSwipe» : Открытие главного меню",
+            "time" : {
+              "start" : 1634303143200,
+              "stop" : 1634303144789,
+              "duration" : 1589
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Попытка открытия меню [0]",
+              "time" : {
+                "start" : 1634303143203,
+                "stop" : 1634303143203,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "_24hS_MainMenu_MobileTesting_Android.aOpenMainMenuViaSwipe: Открытие главного меню по swipe ",
+              "time" : {
+                "start" : 1634303144787,
+                "stop" : 1634303144787,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Открытие главного меню",
+            "time" : {
+              "start" : 1634303144798,
+              "stop" : 1634303144798,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aClickOnMainMenuMyBetItem»",
+          "time" : {
+            "start" : 1634303144821,
+            "stop" : 1634303146181,
+            "duration" : 1360
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aClickOnMainMenuItem»: Нажатие на пункт главного меню «Мои пари»",
+            "time" : {
+              "start" : 1634303144821,
+              "stop" : 1634303146169,
+              "duration" : 1348
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Снимок экрана",
+              "time" : {
+                "start" : 1634303146165,
+                "stop" : 1634303146166,
+                "duration" : 1
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ {
+                "uid" : "3601221f4b79a226",
+                "name" : "screen",
+                "source" : "3601221f4b79a226.png",
+                "type" : "image/png",
+                "size" : 237889
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Нажатие на пункт главного меню;mainMenuItemScreenCaption = Мои пари",
+              "time" : {
+                "start" : 1634303146169,
+                "stop" : 1634303146169,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 1,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_MyBetSection_MobileTesting_Android.aCheckViewPagerInMyBetSection»",
+          "time" : {
+            "start" : 1634303146235,
+            "stop" : 1634303146515,
+            "duration" : 280
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 10,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection»",
+        "time" : {
+          "start" : 1634303146637,
+          "stop" : 1634303152824,
+          "duration" : 6187
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Снимок экрана",
+          "time" : {
+            "start" : 1634303147034,
+            "stop" : 1634303147035,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "47924726daa57465",
+            "name" : "screen",
+            "source" : "47924726daa57465.png",
+            "type" : "image/png",
+            "size" : 65188
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: couponLayoutInfoInDictionary[\"coupon_1_eventName\"] = Турция — Нидерланды Турция тест – Нидерланды",
+          "time" : {
+            "start" : 1634303152157,
+            "stop" : 1634303152157,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff00000566\") = Турция — Нидерланды Турция тест – Нидерланды",
+          "time" : {
+            "start" : 1634303152157,
+            "stop" : 1634303152157,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: couponLayoutInfoInDictionary[\"coupon_1_quoteName\"] = Поб 1 (осн. время)",
+          "time" : {
+            "start" : 1634303152226,
+            "stop" : 1634303152226,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff00000564\") = Поб 1 (осн. время)",
+          "time" : {
+            "start" : 1634303152226,
+            "stop" : 1634303152226,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: couponLayoutInfoInDictionary[\"coupon_1_quoteValue\"] = 4.60",
+          "time" : {
+            "start" : 1634303152296,
+            "stop" : 1634303152296,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff00000565\") = 4.60",
+          "time" : {
+            "start" : 1634303152296,
+            "stop" : 1634303152296,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: couponLayoutInfoInDictionary[\"coupon_2_eventName\"] = Эстония – Чехия",
+          "time" : {
+            "start" : 1634303152387,
+            "stop" : 1634303152387,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff0000056f\") = Эстония – Чехия",
+          "time" : {
+            "start" : 1634303152387,
+            "stop" : 1634303152387,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: couponLayoutInfoInDictionary[\"coupon_2_quoteName\"] = Поб 1 (осн. время)",
+          "time" : {
+            "start" : 1634303152482,
+            "stop" : 1634303152482,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff0000056d\") = Поб 1 (осн. время)",
+          "time" : {
+            "start" : 1634303152482,
+            "stop" : 1634303152482,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: couponLayoutInfoInDictionary[\"coupon_2_quoteValue\"] = 37.00",
+          "time" : {
+            "start" : 1634303152604,
+            "stop" : 1634303152604,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff0000056e\") = 37.00",
+          "time" : {
+            "start" : 1634303152604,
+            "stop" : 1634303152604,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: betLayoutInfo_betSum= 113",
+          "time" : {
+            "start" : 1634303152712,
+            "stop" : 1634303152712,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff0000051f\") = 113 ₽",
+          "time" : {
+            "start" : 1634303152712,
+            "stop" : 1634303152712,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: _24hS_builtin.getDictionaryItem[\"betCaption\"] = Экспресс (Фрибет)",
+          "time" : {
+            "start" : 1634303152824,
+            "stop" : 1634303152824,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "_24hS_MyBetSection_MobileTesting_Android.aCheckLastCouponInMyBetSection: await _24hS_mobile.getTextFromElement(\"00000000-0000-034e-ffff-ffff00000519\") = Экспресс (Фрибет)",
+          "time" : {
+            "start" : 1634303152824,
+            "stop" : 1634303152824,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 17,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 29,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aExitFromAccountViaMainMenu»",
+      "time" : {
+        "start" : 1634303153008,
+        "stop" : 1634303156349,
+        "duration" : 3341
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aOpenMainMenuSettings»",
+        "time" : {
+          "start" : 1634303153008,
+          "stop" : 1634303155229,
+          "duration" : 2221
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aOpenMainMenu»",
+          "time" : {
+            "start" : 1634303153008,
+            "stop" : 1634303154531,
+            "duration" : 1523
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aOpenMainMenuViaSwipe» : Открытие главного меню",
+            "time" : {
+              "start" : 1634303153008,
+              "stop" : 1634303154528,
+              "duration" : 1520
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Попытка открытия меню [0]",
+              "time" : {
+                "start" : 1634303153011,
+                "stop" : 1634303153011,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "_24hS_MainMenu_MobileTesting_Android.aOpenMainMenuViaSwipe: Открытие главного меню по swipe ",
+              "time" : {
+                "start" : 1634303154526,
+                "stop" : 1634303154526,
+                "duration" : 0
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Открытие главного меню",
+            "time" : {
+              "start" : 1634303154531,
+              "stop" : 1634303154531,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 4,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aClickOnMainMenuSettingsButton»",
+          "time" : {
+            "start" : 1634303154619,
+            "stop" : 1634303155151,
+            "duration" : 532
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Нажатие на элемент",
+            "time" : {
+              "start" : 1634303155151,
+              "stop" : 1634303155151,
+              "duration" : 0
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 7,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Выполнение шага «_24hS_MainMenu_MobileTesting_Android.aClickOnMainMenuExitButton»",
+        "time" : {
+          "start" : 1634303155332,
+          "stop" : 1634303156294,
+          "duration" : 962
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Нажатие на элемент",
+          "time" : {
+            "start" : 1634303156294,
+            "stop" : 1634303156294,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 10,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 212,
+    "attachmentsCount" : 40,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Сквозное тестирование (End-to-end testing)"
+  }, {
+    "name" : "suite",
+    "value" : "Тестирование"
+  }, {
+    "name" : "testClass",
+    "value" : "Тестирование"
+  }, {
+    "name" : "testMethod",
+    "value" : "Оформление ставки (Экспресс) по бонусной ставке 'Фрибэт' (Test Suite Name: expressBetWithFreeBet)"
+  }, {
+    "name" : "package",
+    "value" : "Тестирование"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "1",
+    "value" : "Подключено мобильное устройство"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55f4a2fafb0de6a6.json",
+  "parameterValues" : [ "Подключено мобильное устройство" ]
+}

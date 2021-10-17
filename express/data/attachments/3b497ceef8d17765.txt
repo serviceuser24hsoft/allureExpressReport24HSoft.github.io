@@ -1,0 +1,1 @@
+_24hS_ClientAPI_Testing.logOutViaHttpReq: result = {"result":"sessionDeleted","deletedfsid":"HpmdeP7PAS4Erw8qFt7H9NWt"}

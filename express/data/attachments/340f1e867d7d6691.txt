@@ -1,0 +1,1 @@
+_24hS_ClientAPI_Testing.getDataForAuthViaHttpReq: result = {"sysId":2,"clientId":3414216,"random":"0.8731846576843982 :)","sign":"421097ea2ee58f611a097a45a5facf2f33f2229ea29982d8d4816b337b916f75ac6dff76f21d2cc5222f7b9710171b12faa7dad6f174ba564994c755a89bea6f"}

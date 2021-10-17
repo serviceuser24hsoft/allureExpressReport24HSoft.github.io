@@ -1,0 +1,1 @@
+_24hS_BackofficeAPI_Testing.authViaHttpReq: result = {"kind":"login","response":{"fsid":"hSsqrrf7r4wMEiO3VHa2ys0Y","login":"npyatakov","userId":"61855","timeout":1800000}}
